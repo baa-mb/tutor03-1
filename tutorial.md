@@ -1,5 +1,39 @@
-### @ explicitHints true
-### @flyoutOnly true
+### @ explicitHints true  hints gleich in der anweisung
+### @ flyoutOnly true  nur die verwendeten blöcke aber - gleich geöffnet
+### @ hideIteration true
+/* ### diffs true
+*/
+
+
+
+**1**
+```template 
+
+basic.forever(function () {
+    basic.showLeds(`
+        . . # . .
+        . . # . .
+        # # # # #
+        . . # . .
+        . . # . .
+        `)
+})
+
+basic.showIcon(IconNames.Heart)
+
+```
+
+### Ghost blocks
+```blocks
+    music.playTone(262, music.beat(BeatFraction.Whole))
+```
+<!-- 
+### Custom code
+namespace camera {
+    basic.showString("BAchinger")
+} -->
+
+
 
 # Das Tutorial zum Einstieg
 
@@ -9,12 +43,18 @@ Allgemeine Einführung
 + Punkt 1
 + Punkt 2
 
+
+
+
+
 ## Schritt 2a: Hinweise 1
 Wir starten mit der ersten Aufgabe:
 Beim Start sollte die Zahl 5 dargestellt werden - suche jetzt die Befehle.
 ```blocks
     basic.showNumber(5)
 ```
+
+
 
 ## Schritt 2b: Blocks 2
 Wir starten mit der ersten Aufgabe:
