@@ -9,36 +9,6 @@ Navigation anzeigen
 
 */ -->
 
-**1**
-```template 
-basic.forever(function () {
-    basic.showLeds(`
-        . . # . .
-        . . # . .
-        # # # # #
-        . . # . .
-        . . # . .
-        `)
-
-    basic.pause(1000)
-    basic.showIcon(IconNames.Heart)
-    basic.pause(1000)
-})
-
-basic.showIcon(IconNames.Yes)
-
-```
-
-### Ghost blocks
-```blocks
-    music.playTone(262, music.beat(BeatFraction.Whole))
-```
-<!-- 
-### Custom code
-namespace camera {
-    basic.showString("BAchinger")
-} -->
-
 
 
 # Das Tutorial zum Einstieg
@@ -97,4 +67,32 @@ Beim Start sollte die Zahl 6 dargestellt werden - suche jetzt die Befehle.
 * for PXT/microbit
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
 
+**1**
+```template
+basic.forever(function () {
+    basic.showLeds(`
+        . . # . .
+        . . # . .
+        # # # # #
+        . . # . .
+        . . # . .
+        `)
 
+    basic.pause(1000)
+    basic.showIcon(IconNames.Heart)
+    basic.pause(1000)
+})
+
+basic.showIcon(IconNames.Yes)
+
+```
+
+### Ghost blocks
+```blocks
+    music.playTone(262, music.beat(BeatFraction.Whole))
+```
+<!--
+### Custom code
+namespace camera {
+    basic.showString("BAchinger")
+} -->
