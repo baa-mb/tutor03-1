@@ -1,15 +1,13 @@
-/* 
-### @explicitHints true
+<!-- /*
+### @xexplicitHints true
 hints gleich in der anweisung
-### @flyoutOnly true  
+### @xflyoutOnly true  
 nur die verwendeten blöcke aber - gleich geöffnet
-### @hideIteration true
+### @xhideIteration true
 Navigation anzeigen
-### @diffs true
+### @xdiffs true
 
-*/
-
-
+*/ -->
 
 **1**
 ```template 
@@ -98,4 +96,5 @@ Beim Start sollte die Zahl 6 dargestellt werden - suche jetzt die Befehle.
 
 * for PXT/microbit
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+
 
