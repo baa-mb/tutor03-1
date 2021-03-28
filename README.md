@@ -9,9 +9,8 @@ Navigation anzeigen
 
 */ -->
 
-
-
 # Das Tutorial zum Einstieg
+* [Tutorial direkt starten](https://makecode.microbit.org/#tutorial:github:baa-mb/tutor03/tutorial)
 
 ## Schritt 1: Allgemein @unplugged
 ### Herzlich willkommen
