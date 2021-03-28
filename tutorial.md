@@ -8,7 +8,6 @@
 
 **1**
 ```template 
-
 basic.forever(function () {
     basic.showLeds(`
         . . # . .
@@ -17,9 +16,13 @@ basic.forever(function () {
         . . # . .
         . . # . .
         `)
+
+    basic.pause(1000)
+    <!-- basic.clearScreen() -->
+    basic.showIcon(IconNames.Heart)
 })
 
-basic.showIcon(IconNames.Heart)
+basic.showIcon(IconNames.Yes)
 
 ```
 
