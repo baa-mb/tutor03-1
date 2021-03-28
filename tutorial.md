@@ -1,7 +1,12 @@
-### @ explicitHints true  hints gleich in der anweisung
-### @ flyoutOnly true  nur die verwendeten blöcke aber - gleich geöffnet
-### @ hideIteration true
-/* ### diffs true
+/* 
+### @explicitHints true
+hints gleich in der anweisung
+### @flyoutOnly true  
+nur die verwendeten blöcke aber - gleich geöffnet
+### @hideIteration true
+Navigation anzeigen
+### @diffs true
+
 */
 
 
