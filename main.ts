@@ -1,3 +1,1 @@
-basic.forever(function () {
-    basic.showString("Hello!")
-})
+basic.showString("Hello!")
