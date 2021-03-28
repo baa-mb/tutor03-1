@@ -1,7 +1,7 @@
 ## Neu: Tutorials: Metaflags, Ghostcode, templates
 * [Tutorial ansehen](/tutorial.md) 
 * [Tutorial starten](https://makecode.microbit.org/#tutorial:github:baa-mb/tutor03/tutorial)
-
+* [Readme starten](https://makecode.microbit.org/#tutorial:github:baa-mb/tutor03/README)
 
 ## Als Erweiterung verwenden
 
